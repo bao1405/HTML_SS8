@@ -1,0 +1,41 @@
+.slider-container {
+    display: flex;
+    overflow: hidden;
+    width: 300px; 
+}
+
+.slider {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+}
+
+.slide {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+#sliderWrapper {
+    width: 300px; 
+    overflow: hidden;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
